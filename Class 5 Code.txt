@@ -1,0 +1,91 @@
+void main() {
+//            Class 05
+//            LOOP
+//            FOR LOOP
+//    When we know the no of repitions (RANGE) in dart we use FOR.
+//    () contains Condition
+//    {} contains Statment / Output
+//    Define var within the loop
+
+//   for (var i = 1 ; i<10 ; i++)
+//   {
+//     print(i); }
+
+//   var num = 5 ;
+//   for (var i = 1; i <= 10; i++)     // TABLE
+//   {
+//     print("${num} x ${i} = ${num*i}"); }
+
+//            5   x   1  =    5
+  //  for arithematic operations both should be expressed by name as above
+
+//   /////////////////////////////////////////////////////////////////
+
+//   FOR IN LOOP
+//   Used only for List
+//   It prints all elements in given list one at a time
+//   Give the new variable in the condition
+//    Define var within the loop
+//    Define list before the loop
+
+//   var list1 = ["Shahab", "Rahim" , "Aleem" , "Waiz"];
+//   for (var a in list1 ){
+//    print(a); }
+
+// Same thing by For (Range) Loop
+
+//   var list1 = ["Shahab", "Aleem" , "Bilal" , "Waiz" ];
+
+//   for(var a = 0 ; a < list1.length ; a++ ) {
+//     print(list1[a]);
+//   }
+
+//   /////////////////////////////////////////////////////////////////
+
+//  WHILE LOOP
+//  Executes until the given condition becomes False
+//  Beneficial when we dont know the Range
+//   It first checks the condition then prints
+//   Define var before the loop
+
+//   var a = 1 ;
+//   while (a <= 10) {
+//     print(a);
+//     a++;
+//   }
+  
+  
+//   var b = "yes";
+//   while (b == "yes")
+//   {
+//     print(b);
+//     b = "no";
+//   }
+  
+  
+//   var c = "Continue";
+//   while (c == "Continue")
+//   {
+//     print(c);
+//     c = " End";
+//   }
+    
+//   /////////////////////////////////////////////////////////////////
+
+//   DO WHILE LOOP
+//   It Executes the Statement then checks the condition
+//   Executes the statment until condition becomes false.
+  
+//   var a = 1;
+//   do{
+//     print(a);
+//     a++ ; 
+//   } while (a < 10);
+  
+//   var b = "yes";
+//   do{
+//     print(b);
+//     b = "no" ;
+//   }  while( b != "no");
+      
+}
